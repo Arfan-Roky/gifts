@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.first{
+    padding-right: 1rem;
+}
+.second{
+    padding-left: 1rem;
+}
+
+.bg-img{
+    width: 100%;
+    background-image: url("/images/277560313_277229874613531_2315043982927576659_n.png");
+    min-height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.couple-img{
+    position: relative;
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.couple-img > img{
+    width: 350px;
+}
+
+.overflow-img{
+    position: absolute;
+    top: 350px;
+    left: 320px;
+}
+
+.overflow-img > img{
+    width: 350px;
+}
+
+.easter-img {
+    margin-top: -150px;
+    width: 700px;
+}
+
+.discount-img {
+    margin-top: -150px;
+    width: 300px;
+}
+
+.second{
+    text-align: center;
+}
+
+@media only screen and (max-width:576px) {
+
+    .first{
+        order: 2;
+    }
+
+    .second{
+        order: 1;
+    }
+
+    .couple-img{
+        position: static;
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    .couple-img > img{
+        padding: .4rem;
+        width: 100%;
+    }
+
+    .overflow-img{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    .overflow-img > img{
+        padding: .4rem;
+        width: 100%;
+    }
+
+    .easter-img {
+        margin-top: -100px;
+        width: 400px;
+    }
+    
+    .discount-img {
+        margin-top: -90px;
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width:768px) {
+
+    .first{
+        order: 2;
+    }
+
+    .second{
+        order: 1;
+    }
+
+    .couple-img{
+        position: static;
+        width: 100%;
+        padding-left: 0;
+    }
+
+
+    .couple-img > img{
+        padding: .4rem;
+        width: 100%;
+    }
+
+    .overflow-img{
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+
+    .overflow-img > img{
+        padding: .4rem;
+        width: 100%;
+    }
+
+    .easter-img {
+        margin-top: -100px;
+        width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    .discount-img {
+        margin-top: -90px;
+        width: 200px;
+    }
+}
